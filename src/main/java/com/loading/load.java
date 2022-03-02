@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class load {
     public static void main(String[] args) {
-
+            SpringBootApplication.run();
+            
     }
 }
