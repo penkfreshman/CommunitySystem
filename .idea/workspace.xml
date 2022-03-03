@@ -4,39 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5958a66-0f75-407c-94f6-e2240a62cc9c" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/login.html" afterDir="false" />
-    </list>
+    <list default="true" id="3a77f8a0-7c11-4471-89dd-3ac4d1432180" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25k1FRhBmDdi2wqzGjYSZSBFON1" />
+  <component name="ProjectId" id="25sRiZnpEfe7zus8v3H9OOGBTRd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,21 +22,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/webapp/images" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pen\Desktop\System\src\main\resources" />
+      <recent name="C:\Users\pen\Desktop\System1\src\main\resources\webapp\images" />
+      <recent name="C:\Users\pen\Desktop\System1\src\main\resources\webapp" />
+      <recent name="C:\Users\pen\Desktop\System1\src\main\resources\webapp\css" />
+      <recent name="\" />
+      <recent name="C:\Users\pen\Desktop\System1\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pen\Desktop\System1\src\main\resources\webapp" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="load" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="CommunitySystem" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loading.load" />
+    <configuration name="System1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="System1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.community.system.System1Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,18 +48,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e5958a66-0f75-407c-94f6-e2240a62cc9c" name="Changes" comment="" />
-      <created>1646056169549</created>
+      <changelist id="3a77f8a0-7c11-4471-89dd-3ac4d1432180" name="Changes" comment="" />
+      <created>1646313946294</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1646056169549</updated>
-      <workItem from="1646056183470" duration="3397000" />
-      <workItem from="1646097427531" duration="297000" />
-      <workItem from="1646098655392" duration="1304000" />
-      <workItem from="1646125437978" duration="631000" />
-      <workItem from="1646128277760" duration="374000" />
-      <workItem from="1646224454385" duration="13147000" />
-      <workItem from="1646294289691" duration="4727000" />
+      <updated>1646313946294</updated>
+      <workItem from="1646313947968" duration="7520000" />
     </task>
     <servers />
   </component>
