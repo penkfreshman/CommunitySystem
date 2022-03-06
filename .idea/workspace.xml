@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -22,16 +25,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/webapp" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pen\Desktop\System1\src\main\resources\webapp\images" />
       <recent name="C:\Users\pen\Desktop\System1\src\main\resources\webapp" />
+      <recent name="C:\Users\pen\Desktop\System1\src\main\resources" />
+      <recent name="C:\Users\pen\Desktop\System1\src\main\resources\webapp\images" />
       <recent name="C:\Users\pen\Desktop\System1\src\main\resources\webapp\css" />
       <recent name="\" />
-      <recent name="C:\Users\pen\Desktop\System1\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pen\Desktop\System1\src\main\resources\webapp" />
@@ -57,6 +60,8 @@
       <workItem from="1646313947968" duration="7520000" />
       <workItem from="1646356386038" duration="221000" />
       <workItem from="1646356638987" duration="237000" />
+      <workItem from="1646548016500" duration="3722000" />
+      <workItem from="1646557805250" duration="17223000" />
     </task>
     <servers />
   </component>
