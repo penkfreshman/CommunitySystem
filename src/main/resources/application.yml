@@ -1,0 +1,7 @@
+spring:
+  web:
+    resource:
+      static-locations: classpath:/static/,classpath:/public/,classpath:/templates/,classpath:/webStatic/,
+server:
+  servlet:
+    context-path: /
