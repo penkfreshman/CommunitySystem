@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="x-admin-sm">
+<html class="x-admin-sm"   xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="UTF-8">
         <title>后台登录小区物业管理系统</title>
@@ -26,7 +26,7 @@
         <!-- 顶部开始 -->
         <div class="container">
             <div class="logo">
-                <a href="./index.html">物业管理系统</a></div>
+                <a href="index.html">物业管理系统</a></div>
             <div class="left_open">
                 <a><i title="展开左侧栏" class="iconfont">&#xe699;</i></a>
             </div>
@@ -268,9 +268,11 @@
                         <dd data-type="all">关闭全部</dd></dl>
                 </div>
                 <div class="layui-tab-content">
-                    <div class="layui-tab-item layui-show">
-                        <iframe src='./welcome.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
-                    </div>
+
+
+                            <iframe src='./welcome.html' th:include="~{/welcome::welcomePage}" frameborder="0" th:scrolling="yes" scrolling="yes" class="x-iframe" th:src="@{./welcomel.html}" ></iframe>
+
+
                 </div>
                 <div id="tab_show"></div>
             </div>

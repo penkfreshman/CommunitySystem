@@ -1,7 +1,16 @@
 spring:
-  web:
-    resource:
-      static-locations: classpath:/static/,classpath:/public/,classpath:/templates/,classpath:/webStatic/,
+  resource:
+    static-locations: classpath:/static/,classpath:/public/,classpath:/templates/,classpath:/webStatic/,
+    thymeleaf:
+      cache: false # 关闭页面缓存
+      encoding: UTF-8 # 模板编码
+      prefix: classpath:/templates/  # 页面映射路径
+      suffix: .html # 试图后的后缀
+      mode: HTML5 # 模板模式
+
 server:
   servlet:
     context-path: /
+
+
+

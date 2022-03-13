@@ -1,6 +1,5 @@
 /** layui-v2.4.5 MIT License By https://www.layui.com */
-.layui-inline,
-img {
+.layui-inline, img {
     display: inline-block;
     vertical-align: middle
 }
@@ -9,32 +8,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400
 }
 
-.layui-edge,
-.layui-header,
-.layui-inline, .
-layui-main {
+.layui-edge, .layui-header, .layui-inline, .layui-main {
     position: relative
 }
 
-.layui-elip,
-.layui-form-checkbox span,
-.layui-form-pane
-.layui-form-label {
+.layui-elip, .layui-form-checkbox span, .layui-form-pane .layui-form-label {
     text-overflow: ellipsis;
     white-space: nowrap
 }
 
-.layui-btn,
-.layui-edge,
-.layui-inline,
-img {
+.layui-btn, .layui-edge, .layui-inline, img {
     vertical-align: middle
 }
 
-.layui-btn,
-.layui-disabled,
-.layui-icon,
-.layui-unselect {
+.layui-btn, .layui-disabled, .layui-icon, .layui-unselect {
     -webkit-user-select: none;
     -ms-user-select: none;
     -moz-user-select: none
@@ -1095,7 +1082,7 @@ a cite {
     }
 
     .layui-col-sm6 {
-        width: 100%
+        width: 50%
     }
 
     .layui-col-sm7 {
@@ -1201,7 +1188,7 @@ a cite {
     }
 
     .layui-col-md2 {
-        width: 25%
+        width: 16.66666667%
     }
 
     .layui-col-md3 {

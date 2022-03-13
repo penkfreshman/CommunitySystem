@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="x-admin-sm">
+<html class="x-admin-sm"  xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="UTF-8">
         <title>欢迎页面小区物业管理系统</title>
@@ -16,15 +16,17 @@
           <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
-        <div class="layui-fluid">
+    <body overflow="auto" th:fragment="welcomePage">
+
+    <div >
+        <div class="layui-fluid" id="welcome_id">
             <div class="layui-row layui-col-space15">
                 <div class="layui-col-md12">
                     <div class="layui-card">
                         <div class="layui-card-body ">
                             <blockquote class="layui-elem-quote">欢迎管理员：
                                 <span class="x-red">
-                                    pengkun
+                                    [[${session.username}]]
                                 </span>！当前时间:2018-04-25 20:50:53
                             </blockquote>
                         </div>
@@ -497,6 +499,6 @@
                     <blockquote class="layui-elem-quote layui-quote-nm">本系统由PENK和各种依赖包联合制作。</blockquote></div>
             </div>
         </div>
-        </div>
+    </div>
     </body>
 </html>

@@ -10,11 +10,7 @@ import javax.annotation.PostConstruct;
 @Controller
 public class HelloController {
 
-    @GetMapping("/hello")
-    public String hello(){
 
 
-        return "login";
-    }
 
 }
