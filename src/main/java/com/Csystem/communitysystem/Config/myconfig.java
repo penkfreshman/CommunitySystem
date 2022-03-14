@@ -25,7 +25,7 @@ public class myconfig extends WebMvcConfigurerAdapter {
         WebMvcConfigurerAdapter adapter=new WebMvcConfigurerAdapter() {
             @Override
             public void addViewControllers(ViewControllerRegistry registry) {
-                registry.addViewController("/").setViewName("login");
+
                 registry.addViewController("/login.html").setViewName("login");
                 registry.addViewController("/main.html").setViewName("index");
             }
@@ -37,6 +37,6 @@ public class myconfig extends WebMvcConfigurerAdapter {
     public void addInterceptors(InterceptorRegistry registry) {
         super.addInterceptors(registry);
         registry.addInterceptor(new LoginHandlerInterceptor()).
-        addPathPatterns("/**").excludePathPatterns("/login.html","/","/user/login");
+        addPathPatterns("/**").excludePathPatterns("/login.html","/","/user/login","/css/**","/font/**","/images/**","/js/**","/lib.layui/**");
     }
 }

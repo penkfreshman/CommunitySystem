@@ -267,10 +267,10 @@
                         <dd data-type="other">关闭其它</dd>
                         <dd data-type="all">关闭全部</dd></dl>
                 </div>
-                <div class="layui-tab-content">
+                <div class="layui-tab-content " overflow="auto" th:scrolling="yes"   >
 
 
-                            <iframe src='./welcome.html' th:include="~{/welcome::welcomePage}" frameborder="0" th:scrolling="yes" scrolling="yes" class="x-iframe" th:src="@{./welcomel.html}" ></iframe>
+                            <iframe  th:src="@{'/welcome'}" style="width: 100%; height: 100%" frameborder="0" th:scrolling="yes" scrolling="yes" class="x-iframe"/>
 
 
                 </div>
